@@ -9,6 +9,10 @@ In this repository we will practice:
 
 ---
 
+## Sbt
+
+---
+
 ## Git
 
 ### Git Flow
@@ -101,10 +105,6 @@ git flow hotfix finish <name>     # Complete the emergency fix
 
 - Do not forget to `push` to remote the branches along with their tags!
     - `--tags`
-
----
-
-## Sbt
 
 ---
 
