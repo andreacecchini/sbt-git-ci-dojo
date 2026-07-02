@@ -48,7 +48,6 @@ In this repository we will practice:
             - `git flow release finish 1.0.0`
                 - tags the commit as `1.0.0`
                 - merges even into `develop` to don't lost fixes
-                -
     - `hotfix`
         - only for _emergency_
         - branch off from `main`
@@ -93,10 +92,10 @@ git flow hotfix finish <name>     # Complete the emergency fix
 
 ##### About Releases and HotFix
 
-- **releases** and **hotfixes** merges automatically in `main` and `develop` when `finish` is triggered
+- **releases** and **hotfixes** merge automatically in `main` and `develop` when `finish` is triggered
     - we must open two PR!
         - one merging in `main`
-        - one merging in `develop
+        - one merging in `develop`
     - we must handle release/fix tag!
         - tag the release on `main`
             - not in `develop`
